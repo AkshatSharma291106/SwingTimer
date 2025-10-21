@@ -38,6 +38,10 @@ src/
 
 ## ▶️ Getting Started
 
+git clone https://github.com/AkshatSharma291106/SwingTimer.git
+cd SwingTimer
+
+
 ```bash
 cd SwingTimer
 javac -d out (Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullName })
