@@ -34,14 +34,9 @@ src/
 
 ## ▶️ How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MateuszSokol/SwingTimer.git
-   cd SwingTimer
-2. Compile the project
-   javac -d out src/org/example/**/*.java
-3. Run the app
-  java -cp out org.example.Main
+cd \SwingTimer
+javac -d out (Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullName })
+java -cp out org.example.Main
 
 Change the duration in CountdownTimer.java:
 new CountdownTimer(25); // 25 = 25 minutes
