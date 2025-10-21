@@ -1,4 +1,4 @@
-H
+
 # ⏳ Java Pomodoro Timer
 
 A sleek, distraction-free **Pomodoro-style countdown timer** built with Java Swing. Designed for deep work sessions, it launches a frameless, always-on-top window with a live countdown — ideal for maintaining focus in timed intervals.
